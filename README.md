@@ -96,13 +96,4 @@ L’application est déployée via `docker-compose` :
 
 ## 🧑‍💻 Auteur
 
-Projet individuel réalisé par **[Ton Nom]**, étudiant en [ta formation].
-
----
-
-## 🚀 Lancer le Projet
-
-```bash
-git clone https://github.com/ton-utilisateur/nom-du-projet.git
-cd nom-du-projet
-docker-compose up --build
+Projet réalisé par Benjamin Petillon et Gabin Suel, R&T 1 Groupe A2
