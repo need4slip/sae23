@@ -8,7 +8,6 @@
 INSERT INTO semestres (code, nom)
 
 VALUES ('CODE_SEMESTRE', 'NOM_SEMESTRE');
-
 ```
 
 ### Ajout dans blocs
