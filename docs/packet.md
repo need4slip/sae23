@@ -16,7 +16,13 @@ sudo systemctl start mysql
 sudo systemctl enable mysql
 ```
 
-### 3.  Installer Docker et Docker Compose
+### 3. Installer SQLAlchemy
+
+```
+pip install SQLAlchemy
+```
+
+### 4.  Installer Docker et Docker Compose
 
 ```
 sudo apt install \
