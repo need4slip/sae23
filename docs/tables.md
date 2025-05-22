@@ -28,13 +28,11 @@
 | nom       | VARCHAR(100)|           | Nom de la compétence                         |
 | bloc_id   | INT         | FK        | Référence vers `blocs_competences(id)`       |
 
-### niveau
+### competences_niveaux
 
 | Champ         | Type        | Clé       | Description                                |
 |---------------|-------------|-----------|--------------------------------------------|
 | id            | INT         | PK        | Identifiant                                |
-| code          | VARCHAR(50) |           | Code du niveau d’acquisition               |
-| nom           | VARCHAR(100)|           | Nom du niveau d’acquisition                |
 | competence_id | INT         | FK        | Référence vers `competences(id)`           |
 
 ---

@@ -29,7 +29,6 @@ CREATE TABLE competences_niveaux (
     id SERIAL PRIMARY KEY,
     competence_id INT NOT NULL,
     niveau_id INT NOT NULL,
-    date_evaluation DATE DEFAULT CURRENT_DATE,
     FOREIGN KEY (competence_id) REFERENCES competences(id) ON DELETE CASCADE,
     FOREIGN KEY (niveau_id) REFERENCES niveaux(id)
 );
